@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        rel="icon"
+        type="image/x-con"
+        href="https://i.pinimg.com/originals/75/a9/1c/75a91c44a04072d86cbb959e8290ce24.jpg"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="treasurehunt.css"/>
+        <title>Underwater Treasure Hunt</title>
+    </head>
+
+    <body>
+        <h1>Underwater Treasure Hunt</h1>
+        <h2>A game of finding underwater treasure!</h2>
+    <div class="game-rules">
+        <p>
+            Here is how you will find your sunken treaure! Becareful though... the water is full of sharks and if you take too long... there might be Pirates!
+        </p>
+
+    </div>
+
+    <div class="game-instructions">
+        <ul>
+            <li id="emoji1">1st: Click on the waves below to search for the sunken treasure.</li>
+            <li id="emoji2">2nd: You will time for 6 dives before the pirates catch up to you</li>
+            <li id="emoji3">3rd: These waters are filled with dangerous sharks... BEWARE!</li>
+            <li id="emoji4">If you find the treasure, you win!</li>
+        </ul>
+    </div>
+
+    <div id="searchArea">
+        <table border="1">
+            <tr>
+                <td id=0 onclick="treasureHunt(0)">🌊</td>
+                <td id=1 onclick="treasureHunt(1)">🌊</td>
+                <td id=2 onclick="treasureHunt(2)">🌊</td>
+                <td id=3 onclick="treasureHunt(3)">🌊</td>
+                <td id=4 onclick="treasureHunt(4)">🌊</td>
+            </tr>
+            <tr>
+                <td id=5 onclick="treasureHunt(5)">🌊</td>
+                <td id=6 onclick="treasureHunt(6)">🌊</td>
+                <td id=7 onclick="treasureHunt(7)">🌊</td>
+                <td id=8 onclick="treasureHunt(8)">🌊</td>
+                <td id=9 onclick="treasureHunt(9)">🌊</td>
+            </tr>
+            <tr>
+                <td id=10 onclick="treasureHunt(10)">🌊</td>
+                <td id=11 onclick="treasureHunt(11)">🌊</td>
+                <td id=12 onclick="treasureHunt(12)">🌊</td>
+                <td id=13 onclick="treasureHunt(13)">🌊</td>
+                <td id=14 onclick="treasureHunt(14)">🌊</td>
+            </tr>
+            <tr>
+                <td id=15 onclick="treasureHunt(15)">🌊</td>
+                <td id=16 onclick="treasureHunt(16)">🌊</td>
+                <td id=17 onclick="treasureHunt(17)">🌊</td>
+                <td id=18 onclick="treasureHunt(18)">🌊</td>
+                <td id=19 onclick="treasureHunt(19)">🌊</td>
+            </tr>
+            <tr>
+                <td id=20 onclick="treasureHunt(20)">🌊</td>
+                <td id=21 onclick="treasureHunt(21)">🌊</td>
+                <td id=22 onclick="treasureHunt(22)">🌊</td>
+                <td id=23 onclick="treasureHunt(23)">🌊</td>
+                <td id=24 onclick="treasureHunt(24)">🌊</td>
+            </tr>
+        </table>
+    </div>    
+
+    <p id="searchResults"></p>
+
+    <h4 id="turns">Searches Remaining:</h4>
+    <h2 id="counter">12</h2>
+
+    <button type="button" class="link wobble-horizontal-on-hover" onclick="location.reload()" >Restart Game</button>
+
+    <footer>
+        <a href="https://www.farandwide.com/s/underwater-treasures-found-545fa59a59804d0f">Yahya and Josh</footer>
+
+          <script type="text/javascript" src="treasurehunt.js"></script>
+        </body>
+</html>
